@@ -1,0 +1,61 @@
+*{
+  cursor: default;
+  user-select: none;
+}
+a:hover{
+  cursor: pointer;
+}
+.tab{
+    margin-top: 100px;
+}
+.bg-grey{
+    background-color: rgb(231, 235, 238);
+  }
+
+.bg-orange{
+  background-color: orangered;
+}
+body {
+  background: skyblue;
+}
+.main{
+  border-radius: 10px;
+  width: 280px;
+  padding: 0px;
+  margin: auto;
+  overflow: hidden;
+
+}
+table {
+
+  padding: 2px;
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+
+th,
+td {
+  border: 1px solid rgb(200, 202, 218);
+  border-collapse: collapse;
+}
+
+#re-display {
+  height: 70px;
+  background-color: black;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: right;
+}
+
+#re-display th{
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  width: 70px;
+}
